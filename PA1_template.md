@@ -37,8 +37,6 @@ barplot(height = steps_of_day$steps, names.arg = steps_of_day$date,
         main="Total number of steps taken per day")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-2-1.png) 
-
 ![plot of chunk unnamed-chunk-2-1.png](figure/unnamed-chunk-2-1.png) 
 
 3. Calculate and report the mean and median of the total number of steps taken per day
@@ -73,7 +71,6 @@ xyplot(steps ~ interval, steps_of_interval, type="l",
        xlab="Every 5-minute interval", ylab="Steps")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-4-1.png) 
 ![plot of chunk unnamed-chunk-4-1.png](figure/unnamed-chunk-4-1.png) 
 
 
@@ -133,8 +130,6 @@ barplot(height = newsteps_of_day$steps, names.arg = newsteps_of_day$date,
         main="New Total number of steps taken per day")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-8-1.png) 
-
 ![plot of chunk unnamed-chunk-8-1.png](figure/unnamed-chunk-8-1.png) 
 
 
@@ -193,7 +188,5 @@ steps_of_type <- aggregate(steps ~ interval + type, new_activity, mean)
 xyplot(steps ~ interval | factor(type), data = steps_of_type, 
        layout = c(1, 2),  type="l", ylab = "Mean numbers if steps")
 ```
-
-![](PA1_template_files/figure-html/unnamed-chunk-11-1.png) 
 
 ![plot of chunk unnamed-chunk-11-1.png](figure/unnamed-chunk-11-1.png) 
