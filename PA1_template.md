@@ -39,6 +39,8 @@ barplot(height = steps_of_day$steps, names.arg = steps_of_day$date,
 
 ![](PA1_template_files/figure-html/unnamed-chunk-2-1.png) 
 
+![plot of chunk unnamed-chunk-2-1.png](figure/unnamed-chunk-2-1.png) 
+
 3. Calculate and report the mean and median of the total number of steps taken per day
 
 
@@ -72,6 +74,7 @@ xyplot(steps ~ interval, steps_of_interval, type="l",
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-4-1.png) 
+![plot of chunk unnamed-chunk-4-1.png](figure/unnamed-chunk-4-1.png) 
 
 
 3. Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
@@ -132,6 +135,9 @@ barplot(height = newsteps_of_day$steps, names.arg = newsteps_of_day$date,
 
 ![](PA1_template_files/figure-html/unnamed-chunk-8-1.png) 
 
+![plot of chunk unnamed-chunk-8-1.png](figure/unnamed-chunk-8-1.png) 
+
+
 - Calculate and report the mean and median of the total number of steps taken per day
 
 
@@ -189,3 +195,5 @@ xyplot(steps ~ interval | factor(type), data = steps_of_type,
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-11-1.png) 
+
+![plot of chunk unnamed-chunk-11-1.png](figure/unnamed-chunk-11-1.png) 
