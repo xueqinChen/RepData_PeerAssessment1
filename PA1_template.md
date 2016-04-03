@@ -5,7 +5,7 @@
 
 ```r
 ## Unzip first.
-## unzip("activity.zip")
+unzip("activity.zip")
 activity <- read.csv("activity.csv")
 
 ## Check info
